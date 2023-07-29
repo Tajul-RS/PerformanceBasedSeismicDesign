@@ -1,0 +1,17 @@
+ SAPFire results-database version:           74
+ Type    Result      File                  Records
+ Resp    Case        .Y00                        1                 63528
+ Resp    Displ       .Y01                        1               5247552
+ Resp    React       .Y03                        1               5247552
+ Resp    Frame       .Y05                        1              23664960
+ Resp    Link        .Y06                        1              11813760
+ Resp    Spring      .Y02                        1               1094688
+ Resp    JFJoint     .Y0B                        1                868800
+ Resp    JFLink      .Y0C                        1                768000
+ Resp    JFSpring    .Y0D                        1                868800
+ Resp    StrainAge   .Y04                        1                967680
+ Resp    Fiber       .Y07                        1              48222720
+ Resp    DisplTran   .Y0E                        1                834048
+ State   Frame       .Y08                        1                662400
+ State   Link        .Y09                        1                307200
+ State   Fiber       .Y0A                        1               6878208

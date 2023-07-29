@@ -1,0 +1,225 @@
+
+
+ ETABS Ultimate 64-bit 20.3.0 Build 2929 (Analysis Build 9907/64)
+ File: G:\Standard ETAB Model\Cracked Model - Default Hinge\StandardModel.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2023/07/17  11:27:51
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =          84
+    WITH RESTRAINTS                        =          20
+    WITH MASS                              =          20
+ NUMBER OF FRAME/TENDON ELEMENTS           =         160
+ NUMBER OF CONSTRAINTS/WELDS               =           4
+ NUMBER OF LOAD PATTERNS                   =          13
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          11
+ NUMBER OF MASS SOURCES                    =           1
+
+ UNITS (FORCE, LENGTH, TEMPERATURE, TIME)  = N, mm, °C, sec
+ GRAVITATIONAL ACCELERATION                =    9806.650
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =       7.867 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+  (Env. variable SAPFIRE_NUM_THREADS not set)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           6
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           6
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           6
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           6
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           6
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           6
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           6
+
+
+ N O N L I N E A R   S T A T I C   A N A L Y S I S                      11:27:51
+
+ CASE: ~P-DELTA
+
+ STARTING FROM ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ LOAD CONTROL TYPE                         =       FORCE
+ TYPE OF GEOMETRIC NONLINEARITY            =     P-DELTA
+ USE EVENT STEPPING                        =         YES
+ USE ITERATION                             =         YES
+ USE LINE SEARCH                           =          NO
+ EVENT LUMPING TOLERANCE                   =    0.010000
+ FORCE CONVERGENCE TOLERANCE (RELATIVE)    =    0.000100
+
+
+ E L E M E N T   F O R M A T I O N                                      11:27:51
+
+
+ NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
+
+ Negative iterations are Constant-Stiffness
+ Positive iterations are Newton-Raphson
+
+  Saved    Null   Total  Iteration   Relative  Curr Step   Curr Sum    Max Sum
+  Steps   Steps   Steps  this Step  Unbalance       Size   of Steps   of Steps
+ (    1      50     200     -10/40   1.000000   1.000000   1.000000   1.000000)
+
+      0       0       1         -1   4.114789   1.000000    .000000    .000000
+      0       0       1  Conv   -2   0.022258   1.000000   1.000000   1.000000
+
+ ----------------------------------------
+ BASIC STABILITY CHECK FOR FORCE-CONTROLLED NONLINEAR STATIC LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY)
+
+    NUMBER FOUND AT FINAL CONVERGED STATE  =           0,  OK.
+ ----------------------------------------
+
+ NUMBER OF STIFFNESS FORMATIONS/SOLUTIONS  =           2
+
+ TIME FOR INITIALIZING ANALYSIS            =        0.07
+ TIME FOR CONTROLLING ANALYSIS             =        0.14
+ TIME FOR UPDATING LOADS AND STATE         =        0.03
+ TIME FOR FORMING STIFFNESS MATRIX         =        0.00
+ TIME FOR SOLVING STIFFNESS MATRIX         =        0.01
+ TIME FOR CALCULATING DISPLACEMENTS        =        0.00
+ TIME FOR DETERMINING EVENTS               =        0.00
+ TIME FOR SAVING RESULTS                   =        0.02
+                                               ----------
+ TOTAL TIME FOR THIS ANALYSIS              =        0.27
+
+
+ E L E M E N T   F O R M A T I O N                                      11:27:51
+
+
+ NUMBER OF COUPLED CONSTRAINT EQUATIONS    =           0
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        11:27:51
+
+ FORMING STIFFNESS AT THE END OF CASE: ~P-DELTA
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =         204
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =        3171
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  11:27:51
+
+ USING STIFFNESS AT THE END OF CASE: ~P-DELTA
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           5
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           5
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: DEAD
+ CASE: LIVE
+ CASE: DEAD SLAB
+ CASE: DEAD WALL
+ CASE: ~LLRF
+
+
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      11:27:51
+
+ CASE: EQX
+
+ USING STIFFNESS AT THE END OF CASE: ~P-DELTA
+
+ NUMBER OF LOAD STEPS                      =           3
+
+
+ Solving load steps:       1 to       3
+ NUMBER OF OUTPUT STEPS SAVED              =           3
+
+
+ M U L T I - S T E P   L I N E A R   S T A T I C   A N A L Y S I S      11:27:51
+
+ CASE: EQY
+
+ USING STIFFNESS AT THE END OF CASE: ~P-DELTA
+
+ NUMBER OF LOAD STEPS                      =           3
+
+
+ Solving load steps:       1 to       3
+ NUMBER OF OUTPUT STEPS SAVED              =           3
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                11:27:51
+
+ CASE: MODAL
+
+ USING STIFFNESS AT THE END OF CASE: ~P-DELTA
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =         204
+ NUMBER OF MASS DEGREES OF FREEDOM         =          12
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          24
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =          10
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          12
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+ * * * I N F O * * *
+ NUMBER OF MODES SOUGHT REDUCED TO THE NUMBER OF MASS DEGREES OF FREEDOM
+
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+
+ Iteration    Approximations to next 5 eigenvalues, from shift EV= 0.0000000E+00
+       1   3.9127977E+01 3.9127977E+01 5.2735620E+01 3.9732005E+02 3.9732005E+02
+
+ Found mode      1 of     12:  EV= 3.9127977E+01, f=    0.995552, T=    1.004468
+ Found mode      2 of     12:  EV= 3.9127977E+01, f=    0.995552, T=    1.004468
+ Found mode      3 of     12:  EV= 5.2735620E+01, f=    1.155772, T=    0.865223
+ Found mode      4 of     12:  EV= 3.9732005E+02, f=    3.172418, T=    0.315217
+ Found mode      5 of     12:  EV= 3.9732005E+02, f=    3.172418, T=    0.315217
+ Found mode      6 of     12:  EV= 5.2244345E+02, f=    3.637808, T=    0.274891
+ Found mode      7 of     12:  EV= 1.2046114E+03, f=    5.523872, T=    0.181032
+ Found mode      8 of     12:  EV= 1.2046114E+03, f=    5.523872, T=    0.181032
+ Found mode      9 of     12:  EV= 1.5307679E+03, f=    6.226942, T=    0.160592
+ Found mode     10 of     12:  EV= 1.9815802E+03, f=    7.084773, T=    0.141148
+ Found mode     11 of     12:  EV= 1.9815802E+03, f=    7.084773, T=    0.141148
+ Found mode     12 of     12:  EV= 2.4528855E+03, f=    7.882406, T=    0.126865
+
+ NUMBER OF EIGEN MODES FOUND               =          12
+ NUMBER OF ITERATIONS PERFORMED            =           1
+ NUMBER OF STIFFNESS SHIFTS                =           0
+
+
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    11:27:51
+
+ CASE: EQX_RESSPEC
+
+ TYPE OF EXCITATION                        = STANDARD GROUND ACCELERATION
+
+ USING MODES FROM CASE: MODAL
+ NUMBER OF DYNAMIC MODES TO BE USED        =          12
+
+
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    11:27:51
+
+ CASE: EQY_RESSPEC
+
+ TYPE OF EXCITATION                        = STANDARD GROUND ACCELERATION
+
+ USING MODES FROM CASE: MODAL
+ NUMBER OF DYNAMIC MODES TO BE USED        =          12
+
+
+ A N A L Y S I S   C O M P L E T E                          2023/07/17  11:27:52

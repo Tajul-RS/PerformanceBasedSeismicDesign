@@ -1,0 +1,197 @@
+
+
+ ETABS Ultimate 64-bit 20.3.0 Build 2929 (Analysis Build 9907/64)               
+ File: G:\Standard ETAB Model\Cracked Model - Default Hinge\StandardModel.OUT   
+                                                                     
+                                                                       
+
+ 1, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+           93.256044   93.256044     .000000     .000000     .000000  2.9914E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z     12000.000   12000.000   12000.000
+
+ 2, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          279.689905  279.689905     .000000     .000000     .000000  9.3696E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z      9000.000    9000.000    9000.000
+
+ 3, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          279.689905  279.689905     .000000     .000000     .000000  9.3696E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z      6000.000    6000.000    6000.000
+
+ 4, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          279.689905  279.689905     .000000     .000000     .000000  9.3696E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z      3000.000    3000.000    3000.000
+
+ 1, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+           93.256044   93.256044     .000000     .000000     .000000  2.9914E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z     12000.000   12000.000   12000.000
+
+ 2, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          279.689905  279.689905     .000000     .000000     .000000  9.3696E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z      9000.000    9000.000    9000.000
+
+ 3, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          279.689905  279.689905     .000000     .000000     .000000  9.3696E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z      6000.000    6000.000    6000.000
+
+ 4, CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+          279.689905  279.689905     .000000     .000000     .000000  9.3696E+09
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X      6000.000    6000.000    6000.000
+     Y      6000.000    6000.000    6000.000
+     Z      3000.000    3000.000    3000.000
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1 TO       4    +   +   A   A   A   +
+       5               -   -   -   -   -   -
+       6 TO       9    +   +   A   A   A   +
+      10               -   -   -   -   -   -
+      11 TO      14    +   +   A   A   A   +
+      15               -   -   -   -   -   -
+      16 TO      19    +   +   A   A   A   +
+      20               -   -   -   -   -   -
+      21 TO      24    +   +   A   A   A   +
+      25               -   -   -   -   -   -
+      26 TO      29    +   +   A   A   A   +
+      30               -   -   -   -   -   -
+      31 TO      34    +   +   A   A   A   +
+      35               -   -   -   -   -   -
+      36 TO      39    +   +   A   A   A   +
+      40               -   -   -   -   -   -
+      41 TO      44    +   +   A   A   A   +
+      45               -   -   -   -   -   -
+      46 TO      49    +   +   A   A   A   +
+      50               -   -   -   -   -   -
+      51 TO      54    +   +   A   A   A   +
+      55               -   -   -   -   -   -
+      56 TO      59    +   +   A   A   A   +
+      60               -   -   -   -   -   -
+      61 TO      64    +   +   A   A   A   +
+      65               -   -   -   -   -   -
+      66 TO      69    +   +   A   A   A   +
+      70               -   -   -   -   -   -
+      71 TO      74    +   +   A   A   A   +
+      75               -   -   -   -   -   -
+      76 TO      79    +   +   A   A   A   +
+      80               -   -   -   -   -   -
+      81 TO      84    +   +   -   -   -   +
+    NULL                                    
+
+  CONSTRAINTS         U1  U2  U3  R1  R2  R3
+ 1       TO 4          A   A               A
